@@ -1,0 +1,83 @@
+.text{
+	margin-top:20%;
+	text-align: center;
+}
+
+
+
+
+/*两个图标的外层div*/
+.chiganfangshi_bottom{
+	position: absolute;
+	top:18rem;
+	-webkit-flex: 1;	
+	display: flex;
+	height: 20px;
+	width: 100%;
+}
+
+
+.chiganfangshi_left{
+	flex: 1;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+
+.chiganfangshi_left div{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+}
+
+.chiganfangshi_right div{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+}
+
+.chiganfangshi_left div{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+}
+
+.chiganfangshi_left div span{
+	display: block;
+}
+.chiganfangshi_left div img{
+	width: 50%;
+}
+
+
+.chiganfangshi_right{
+	flex: 1;
+	text-align: center;
+	position: relative;
+}
+
+
+
+.chiganfangshi_right div img{
+	width: 50%;
+}
+
+
+.chiganfangshi_left,.chiganfangshi_right img{
+	width: 30%;
+	display: inline-block;
+}
+
+.chiganfangshi_left,.chiganfangshi_right span{
+	font-size: 1.4rem;
+	color: rgb(178,196,202);
+	display: block;
+	font-weight: 600;
+	text-align: center;
+}

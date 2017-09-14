@@ -21,7 +21,7 @@
 			    window.location.href="../part3/bingtianxuedizhuyemian.jsp";
 			  });
 			  $(".c").click(function(){
-			    window.location.href="";
+			    window.location.href="../part4/tianbingtianjiangzhuyemian.jsp";
 			  });
 			  $(".d").click(function(){
 			    window.location.href="";

@@ -1,0 +1,43 @@
+.text{
+	line-height:2.0;
+	text-align: center;
+	margin-top:12%;
+	font-family:"微软雅黑";
+	font-size:120%;
+	color:#F7ECB5;
+}
+.text p{
+	 color: #fff;
+	 text-shadow:none !important;
+	 font-size: 3rem;
+}
+
+.gender{
+	display: flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	flex: 1;
+}
+
+.man_div{
+	margin: 5rem;
+	flex: 1;
+	-webkit-flex: 1;
+	align-content: center;
+	-webkit-align-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	text-align: center;
+}
+
+.lady_div{
+	margin: 5rem;
+	flex: 1;
+	-webkit-flex: 1;
+	align-content: center;
+	-webkit-align-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	text-align: center;
+	
+}
